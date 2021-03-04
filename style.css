@@ -1,0 +1,101 @@
+.one {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive, colonna mt;
+    color: orange;
+    padding-top: 100px;
+
+
+}
+
+body {
+    background-color: pink;
+
+
+}
+
+.two {
+    background-image: url(flowers.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px pink solid;
+    width: 500px;
+    margin: 100px auto;
+    height: 700px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive, colonna mt;
+    color: red;
+    padding-top: 85px;
+}
+
+.site {
+
+    background-image: url(rightleftbg.png),
+        url(rightleftbg.png),
+        url(topbottombg.png),
+        url(topbottombg.png);
+    background-repeat: repeat-y, repeat-y, repeat-x, repeat-x;
+    background-size: 100px, 100px, 800px, 800px;
+    background-position: left, right, top, bottom;
+
+
+}
+
+#first {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+
+    top: 8%;
+    left: 12%;
+    background-image: url(Img/koteika4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#second {
+    position: absolute;
+    width: 15%;
+    height: 10%;
+
+    top: 25%;
+    left: 10%;
+    background-image: url(koteika.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+#third {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+
+    top: 25%;
+    left: 75%;
+    background-image: url(koteika2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#forth {
+    position: absolute;
+    width: 20%;
+    height: 15%;
+
+    top: 5%;
+    left: 70%;
+    background-image: url(koteika3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slova {
+    margin-top: 15%;
+}
